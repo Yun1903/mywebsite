@@ -43,6 +43,24 @@ section{
     background-color: black;
 }
 
+.btn:hover{
+   opacity: 0.7;
+}
+
+.heading{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 0.1rem solid #fff;
+}
+
+.heading span{
+    color:black;
+     text-transform: uppercase;
+}
+
+
 /* header baslangic */
 
 .header .logo img {
@@ -119,3 +137,49 @@ section{
 
 
 /* home bitis */
+
+
+/* gundem kaydı baslangic */
+
+.gundem .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.gundem .box-container .box{
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    background-color: #fff;
+    min-height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.gundem .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.gundem .box-container .box  .gundem-category{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gundem .box-container .box h3{
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.gundem .box-container .box .price{
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+
+
+
+
+/* gundem kaydı bitis */
