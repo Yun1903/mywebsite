@@ -29,6 +29,19 @@ body{
         background-color: var(--main-color);
 }
 
+section{
+    padding: 3.5rem 7%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: black;
+}
 
 /* header baslangic */
 
