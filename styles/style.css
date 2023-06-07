@@ -272,7 +272,37 @@ a{
         font-size: 1.5rem;
       }
 
-
-
-
 /* projelerim bitis */
+
+/* hakkimda baslangic */
+
+.about .row{
+display: flex;
+flex-wrap: wrap;
+column-gap: 2rem;
+}
+
+.about .row .image {
+    flex: 1 1 45rem;
+}
+.about .row .img {
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#020202;
+}
+.about .row .content{
+    font-size: 1.6rem;
+    color: #020202;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+/* hakkimda bitis */
