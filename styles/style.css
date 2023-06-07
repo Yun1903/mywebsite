@@ -25,6 +25,24 @@ html {
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color: #fff;
+
+}
+
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+    
+}
+
+html::-webkit-scrollbar-thumb{
+    border-radius: 3rem;
+    background-color: #121212;
+    
+}
+
+
 body{
         background-color: var(--main-color);
 }
@@ -183,3 +201,9 @@ section{
 
 
 /* gundem kaydı bitis */
+
+
+/* projelerim baslangic */
+
+
+/* projelerim bitis */
