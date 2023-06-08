@@ -607,8 +607,8 @@ a {
     }
 
     @media(max-width: 768px){
-        #gundem-btn{
-            display: inline-block;
+        .header #gundem-btn{
+            display:inline-block;
         }
         .header .navbar{
             position: absolute;
@@ -630,5 +630,13 @@ a {
             padding: 0.5rem;
             font-size: 2rem;
         }
+
+        @media (max-width: 576px){
+            html{
+                font-size: 50%;
+            }
+           
+        }
+
     }
 /* responsive bitis */
